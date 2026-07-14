@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# next
+.next
+out
+tsconfig.tsbuildinfo
+
+# local tooling
+.turbo
+.wrangler
+.playwright-cli
+
+# environment
+.env
+.env*
+!.env.example
+
+# logs
+*.log
