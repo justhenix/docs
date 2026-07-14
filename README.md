@@ -2,6 +2,8 @@
 
 Public documentation for Henix projects, learning labs, and technical notes.
 
+Production: https://docs.henix.my.id
+
 ## Development
 
 ```powershell
@@ -18,6 +20,8 @@ bun run build
 ```
 
 The static site is generated in `out`.
+
+Cloudflare Pages automatically deploys pushes to `main`.
 
 ## Contributing
 
