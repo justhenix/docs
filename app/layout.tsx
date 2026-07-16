@@ -4,7 +4,7 @@ import { Head } from "nextra/components";
 import { getPageMap } from "nextra/page-map";
 import { Footer, Layout, Navbar } from "nextra-theme-docs";
 import Image from "next/image";
-import { RiGithubFill, RiTwitterXLine } from "@remixicon/react";
+import { RiGithubFill, RiInstagramLine, RiTwitterXLine } from "@remixicon/react";
 import "nextra-theme-docs/style.css";
 import "./globals.css";
 
@@ -92,6 +92,14 @@ export default async function RootLayout({
                       aria-label="Twitter X"
                     >
                       <RiTwitterXLine aria-hidden="true" />
+                    </a>
+                    <a
+                      href="https://instagram.com/heni0x"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Instagram"
+                    >
+                      <RiInstagramLine aria-hidden="true" />
                     </a>
                   </div>
                   <p className="copyright">&copy; {new Date().getFullYear()} Henix</p>
