@@ -97,8 +97,8 @@ export default async function RootLayout({
                   <p className="copyright">&copy; {new Date().getFullYear()} Henix</p>
                   <p className="artist-credit">
                     Art by{" "}
-                    <a href="https://www.instagram.com/kiroobeiniki_/" target="_blank" rel="noreferrer">
-                      @kiroobeiniki_
+                    <a href="https://www.instagram.com/heni0x/" target="_blank" rel="noreferrer">
+                      @heni0x
                     </a>
                   </p>
                 </div>
